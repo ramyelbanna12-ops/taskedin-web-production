@@ -26,9 +26,6 @@ import { CompanyProfileComponent } from 'src/app/components/admin/company-profil
   imports: [
     CommonModule,
     RouterModule,
-
-    CommonModule,
-    RouterModule,
     FormsModule, 
     BrowserModule
   ]
