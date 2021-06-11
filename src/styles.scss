@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+.auth-page{
+    background: url(assets/app-assets/images/pages/vuexy-login-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    .content-wrapper {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content.app-content {
+        margin: 0;
+        height: 100%;
+    }
+    .header-navbar-shadow {
+        all: unset !important;
+    }
+}
+
+.vs-checkbox-con .vs-checkbox{
+    width: 22px;
+    height: 22px;
+}
+
+@media all and (min-width: 1200px) {
+
+    i.toggle-icon.font-medium-4.d-none.d-xl-block.collapse-toggle-icon.primary.feather.icon-disc{
+        display: none !important;
+    }
+
+}

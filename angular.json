@@ -8,8 +8,8 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss",
-          "skipTests" : true,
-          "inlineStyle" : true
+          "skipTests": true,
+          "inlineStyle": true
         },
         "@schematics/angular:application": {
           "strict": true
@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "taskedin-web-production"
+  "defaultProject": "taskedin-web-production",
+  "cli": {
+    "analytics": "5036bd60-637d-4f28-b3fb-94099a821abc"
+  }
 }
